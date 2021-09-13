@@ -69,7 +69,7 @@ public class main {
             else num = (int)(Math.random()*256)+0;
             address[i] = String.valueOf(num);
         }
-        int num = (int)(Math.random()*12)+20;
+        int num = (int)(Math.random()*11)+20;
         input = String.valueOf(num);
 
 
