@@ -76,15 +76,10 @@ public class main {
         while (true){
             System.out.print("Do you want to start?  (y/n) : ");
             String a = sc.nextLine();
-            if (a.equals("y") || a.equals("Y")){
-                System.out.println("\nIP : "+address[0]+"."+address[1]+"."+address[2]+"."+address[3]);
-                System.out.println("Prefix : /"+input+"\n");
-                timeStart = Time();
-                break;
-            }
-            else {
-                System.exit(0);
-            }
+            System.out.println("\nIP : "+address[0]+"."+address[1]+"."+address[2]+"."+address[3]);
+            System.out.println("Prefix : /"+input+"\n");
+            timeStart = Time();
+            break;
         }
 
         while (true){
