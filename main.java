@@ -43,19 +43,18 @@ public class main {
         String [] address = new String[4];
 
 
-        for (int i = 0; i < 4; i++) {
-            int num;
-            if (i == 0){
-                num = (int)(Math.random()*223)+0;
-            }
-            else num = (int)(Math.random()*256)+0;
-            address[i] = String.valueOf(num);
-        }
-        int num = (int)(Math.random()*11)+20;
-        input = String.valueOf(num);
-
 
         while(true){
+            for (int i = 0; i < 4; i++) {
+                int num;
+                if (i == 0){
+                    num = (int)(Math.random()*223)+0;
+                }
+                else num = (int)(Math.random()*256)+0;
+                address[i] = String.valueOf(num);
+            }
+            int num = (int)(Math.random()*11)+20;
+            input = String.valueOf(num);
             while (true){
                 System.out.print("Do you want to start?  (Enter something) : ");
                 String a = sc.nextLine();
